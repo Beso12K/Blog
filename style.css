@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  padding-left: 10px;
+  margin: 15px;
+  padding-right: 10px;
+}
+
+.judul {
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  font-family: "Bungee", "cursive";
+  text-decoration: underline;
+}
+
+.nav {
+  display: flex;
+  right: 0;
+  justify-content: center;
+}
+
+.nav a {
+  text-decoration: none;
+  font-family: "Kurale", serif;
+  color: black;
+  font-size: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
